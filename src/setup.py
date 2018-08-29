@@ -15,7 +15,6 @@ setup(
     name = "pydybm",
     version = "3.2.1",
     author = "DyBM developers at IBM Research - Tokyo",
-    package_dir = {"": "src"},
     packages = find_packages(),
     test_suite = "tests",
 )

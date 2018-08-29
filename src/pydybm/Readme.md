@@ -103,6 +103,18 @@ Generate html documentation (while inside the `src/pydybm/docs/` directory) with
 You will find html documentation under `docs/_build/html`
 
 
+### How to package as wheel file
+
+```bash
+pip install --user --upgrade setuptools wheel
+```
+
+```bash
+cd src
+python setup.py sdist bdist_wheel
+pip install dist/pydybm-3.2.1-py3-none-any.whl
+```
+
 ### How to uninstall
 
 The following command should be executed at DyBM' Root directory (this Readme is at `[Root]/src/pydybm/`).
